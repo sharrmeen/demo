@@ -1,23 +1,23 @@
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// int main()
-// {
-//       const int SIZE =5;
-//       int numbers[SIZE];
-//       int sum=0;
+int main()
+{
+      const int SIZE =5;
+      int numbers[SIZE];
+      int sum=0;
 
-//       cout<<"enter five numbers: ";
-//       for (int i=0;i<SIZE;i++)
-//       {
-//         cin>>numbers[i];
-//       }
-//      for(int i=0;i<SIZE;++i)
-//      {
-//         sum+=numbers[i];
-//      }
-//       cout<<"sum of the numbers: "<<sum<<endl;
-// }
+      cout<<"enter five numbers: ";
+      for (int i=0;i<SIZE;i++)
+      {
+        cin>>numbers[i];
+      }
+     for(int i=0;i<SIZE;++i)
+     {
+        sum+=numbers[i];
+     }
+      cout<<"sum of the numbers: "<<sum<<endl;
+}
 
 // #include<iostream>
 // using namespace std;
