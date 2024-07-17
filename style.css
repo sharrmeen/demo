@@ -29,3 +29,43 @@
 .login{
     margin-left: 20px;
 }
+
+.header-container{
+    display: flex;
+    color: rgb(91, 109, 126);
+    background-color: rgb(171, 216, 216);
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    width: 900px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    display: flex;
+    width: 900px;
+ 
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.item{
+    border: 1px solid #fff;
+
+    display: flex;
+    width: 300px;
+    height: 300px;
+
+}
