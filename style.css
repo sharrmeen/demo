@@ -69,3 +69,16 @@
     height: 300px;
 
 }
+
+.first{
+    order: 1;
+}
+
+.last{
+    order: -1;
+}
+
+.social,.subscribe{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
