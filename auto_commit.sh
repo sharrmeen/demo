@@ -4,9 +4,9 @@ while true; do
   if [ ! -z "$changes" ]; then
     git add .
 
-    timestamp=$(date +%Y-%m-%d-%H-%M-%S)
-    git commit -m "Auto-commit at $timestamp"
-
+    echo "Enter commit message: "
+    read commit_message
+    git commit -m "$commit_message"
     git push origin
   fi
 
